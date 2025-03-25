@@ -13,7 +13,7 @@ material_2_switch: ^1.0.0
 TODO: Include short and useful examples for package users. Add longer examples
 to `/example` folder.
 
-````dart
+```dart
 M2SwitchListTile(
   activeColor: mainColor,
   value: isActive,
@@ -25,7 +25,7 @@ M2SwitchListTile(
   }),
 ```
 
-```
+```dart
 M2Switch.adaptive(
   value: isActive,
   activeColor: mainColor,
@@ -34,7 +34,7 @@ M2Switch.adaptive(
       isActive = v;
     });
   }),
-````
+```
 
 ## License
 
