@@ -64,7 +64,7 @@ SOFTWARE.
 
 ## Support and feedback
 
-If I miss to add some feature, feel free to open a ticket or contribute!
+Feel free to open a ticket or contribute!
 You can reach me here:
 [LinkedIn](https://www.linkedin.com/in/lakshydeep-14/) |
 [GitHub](https://github.com/lakshydeep-14) |
