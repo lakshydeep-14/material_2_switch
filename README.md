@@ -5,7 +5,7 @@ Use Material 2 Switch and SwitchListTile in your Flutter Project
 Add package to pubspec.yaml
 
 ```dart
-material_2_swtich: ^1.0.0
+material_2_switch: ^1.0.0
 ```
 
 ## Usage
@@ -13,26 +13,28 @@ material_2_swtich: ^1.0.0
 TODO: Include short and useful examples for package users. Add longer examples
 to `/example` folder.
 
-```dart
+````dart
 M2SwitchListTile(
-                activeColor: mainColor,
-                value: isActive,
-                title: const Text('Material 2 Switch List Tile without adaptive'),
-                onChanged: (v) {
-                  setState(() {
-                    isActive = v;
-                  });
-                }),
-
-M2Switch.adaptive(
-                value: isActive,
-                activeColor: mainColor,
-                onChanged: (v) {
-                  setState(() {
-                    isActive = v;
-                  });
-                }),
+  activeColor: mainColor,
+  value: isActive,
+  title: const Text('Material 2 Switch List Tile without adaptive'),
+  onChanged: (v) {
+    setState(() {
+      isActive = v;
+    });
+  }),
 ```
+
+```
+M2Switch.adaptive(
+  value: isActive,
+  activeColor: mainColor,
+  onChanged: (v) {
+    setState(() {
+      isActive = v;
+    });
+  }),
+````
 
 ## License
 
