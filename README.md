@@ -10,9 +10,6 @@ material_2_switch: ^1.0.0
 
 ## Usage
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
-
 ```dart
 M2SwitchListTile(
   activeColor: mainColor,
